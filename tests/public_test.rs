@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use crate::solution::Threadpool;
+    use solution::Threadpool;
     use crossbeam_channel::unbounded;
     use ntest::timeout;
     use std::sync::Arc;
